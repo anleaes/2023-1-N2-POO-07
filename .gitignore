@@ -1,5 +1,15 @@
 db.sqlite3
 adopteapp/__pycache__/*
-/apps/categories/__pycache__/*
-/apps/categories/migrations/*
 
+# Repete essas duas linhas de baixo pra todas as classes que tu criar no diretório 'apps'
+/apps/clientes/__pycache__/*
+/apps/clientes/migrations/*
+
+/apps/porte_animal/__pycache__/*
+/apps/porte_animal/migrations/*
+
+/apps/adocao/__pycache__/*
+/apps/adocao/migrations/*
+
+/apps/animal/__pycache__/*
+/apps/animal/migrations/*
