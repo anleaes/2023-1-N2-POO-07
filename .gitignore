@@ -8,8 +8,8 @@ adopteapp/__pycache__/*
 /apps/porte_animal/__pycache__/*
 /apps/porte_animal/migrations/*
 
-/apps/adocao/__pycache__/*
-/apps/adocao/migrations/*
+/apps/adocoes/__pycache__/*
+/apps/adocoes/migrations/*
 
-/apps/animal/__pycache__/*
-/apps/animal/migrations/*
+/apps/animais/__pycache__/*
+/apps/animais/migrations/*
