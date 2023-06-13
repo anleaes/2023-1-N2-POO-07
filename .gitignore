@@ -11,5 +11,5 @@ adopteapp/__pycache__/*
 /apps/adocao/__pycache__/*
 /apps/adocao/migrations/*
 
-/apps/animal/__pycache__/*
-/apps/animal/migrations/*
+/apps/animais/__pycache__/*
+/apps/animais/migrations/*
