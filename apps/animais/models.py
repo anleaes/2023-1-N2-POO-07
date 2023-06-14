@@ -13,4 +13,4 @@ class Animais(models.Model):
         ordering =['id']
 
     def __str__(self):
-         return f"{self.especie}-{self.nome}-{self.idade}"
+         return f"{self.especie}-{self.name}-{self.idade}"
