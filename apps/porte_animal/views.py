@@ -1,3 +1,8 @@
-from django.shortcuts import render
+from .models import PorteAnimal
+from rest_framework import viewsets
+from .serializer import PorteAnimalSerializer
 
-# Create your views here.
+class PorteAnimalViewSet(viewsets.ModelViewSet):
+    queryset = PorteAnimal.objects.all()
+    serializer_class = PorteAnimalSerializer
+    
