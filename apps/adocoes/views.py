@@ -1,3 +1,7 @@
-from django.shortcuts import render
+from .models import Adocoes
+from rest_framework import viewsets
+from .serializers import AdocoesSerializer
 
-# Create your views here.
+class AdocoesViewSet(viewsets.ModelViewSet):
+    queryset = Adocoes.objects.all()
+    serializer_class = AdocoesSerializer  
