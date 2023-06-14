@@ -49,7 +49,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'adocoes.apps.AdocoesConfig',
-    'clientes.apps.ClientesConfig'
+    'clientes.apps.ClientesConfig',
+    'animais.apps.AnimaisConfig',
 ]
 
 MIDDLEWARE = [

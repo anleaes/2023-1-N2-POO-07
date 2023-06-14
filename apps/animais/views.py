@@ -1,3 +1,8 @@
-from django.shortcuts import render
+from .models import Animais
+from rest_framework import viewsets
+from .serializer import AnimaisSerializer
 
-# Create your views here.
+class AnimaisViewSet(viewsets.ModelViewSet):
+    queryset = Animais.objects.all()
+    serializer_class = AnimaisSerializer
+

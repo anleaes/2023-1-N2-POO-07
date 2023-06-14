@@ -5,4 +5,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('adocoes/', include('adocoes.urls', namespace='adocoes')),
     path('clientes/', include('clientes.urls', namespace='clientes')),
+    path('animais/', include('animais.urls', namespace='animais')),
 ]
